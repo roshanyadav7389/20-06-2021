@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
 
-function App() {
+import React from "react";
+//import './App.css';
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Registration from "./components/Registration";
+import Login from "./components/Login";
+import Logout from "./components/Logout";
+import DocumentUpload from "./components/DocumentUpload";
+import "react-toastify/dist/ReactToastify.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path='/Registration' component={Registration} />
+          <Route exact path='/Login' component={Login} />
+          <Route exact path='/Logout' component={Logout} />
+          {/* <Route exact path="/form" component ={form} /> */}
+          <Route exact path='/DocumentUpload' component={DocumentUpload} />
+        </Switch>
+        {/* <Registeration /> */}
+      </Router>
+    </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,52 @@
+/* login*/
+#login  .borderline{
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(92, 99,105,.2);
+  
+    
+  
+  }
+  #login .loginname{
+    
+    font-size:50px;
+    font-weight: bolder;
+  }
+  #login .button{
+    border-radius: 40px;
+      padding: 10px 40px;
+      background-color: #bd6021;
+      color: #fff;
+      font-size: 27px;
+      line-height: 1.5;
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+  
+  }
+  #login .lab{
+    position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 13px;
+    padding: 0 10px;
+    font-weight: bolder;
+  
+  }
+  #login .start{
+    border-top: 5px solid #bd6021;
+  }
+  #login .start h1{
+    color: #bd6021;
+  }
+  #login .mt{
+    margin-top: 40px;
+  }
+  #login .last{
+    margin-bottom: 10px;
+  }
+  #login .box{
+    margin-bottom: 40px;
+  }

@@ -1,0 +1,67 @@
+
+/*registeration css*/
+#reg .button{
+  border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #bd6021;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#reg .heading{
+  
+    font-size:50px;
+    font-weight: bolder;
+    color:#bd6021;
+}
+#reg .para{
+  font-size:25px ;
+  font-weight: 200;
+  padding-top: .5rem!important;
+}
+
+#reg .lab{
+  position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 13px;
+    padding: 0 10px;
+    font-weight: bolder;
+}
+
+#reg .mt{
+  margin-top: 40px;
+  
+}
+#reg .start{
+  margin-top: 30px;
+  
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(92, 99,105,.2);
+
+}
+#reg .start1{
+  
+    border-top: 5px solid #bd6021;
+}
+#reg .nob{
+  border-style: none;
+}
+#reg .box{
+  margin-bottom: 40px;
+}
+#reg .last{
+  margin-bottom: 10px;
+}
+
+#Phoneno{
+   width: 70%;
+   margin-right: 8px;
+
+}
